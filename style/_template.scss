@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@font-face {
+  font-family: 'NymphaTrial Regular';
+  src: url('../fonts/NymphaTrial-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  font-weight: 400;
+  src: url('../fonts/SF-Pro-Display-Regular.otf');
+}
+@font-face {
+  font-family: 'SF Pro Display Medium';
+  src: url('../fonts/SF-Pro-Display-Medium.otf');
+}
+$font: 'NymphaTrial Regular', sans-serif;
+$secondaryFont: 'SF Pro Display', sans-serif;
+$alternateFont: 'DM Mono', monospace;
+$mainColor: #ffffff;
+$secondaryColor: #f2f2f2;
+$textColor: #d6d0ce;
+$alternateColor: #8d8d8d;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030303;
+  font-family: $font;
+  font-size: 16px;
+  color: $secondaryColor;
+  .container {
+    max-width: 1268px;
+    margin: 0 auto;
+    padding: 0 10px;
+    @media (max-width: 1024px) {
+      max-width: 90%;
+    }
+  }
+}

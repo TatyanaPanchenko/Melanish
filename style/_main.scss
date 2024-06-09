@@ -1,0 +1,139 @@
+.main {
+  .first-screen {
+    margin: 317px 0 274px;
+    position: relative;
+    h1 {
+      font-size: 220px;
+      font-weight: 400;
+      color: $mainColor;
+      position: absolute;
+      z-index: 1;
+      top: -145px;
+      width: 100%;
+      text-align: center;
+    }
+    .first-screen-img {
+      margin-bottom: 93px;
+    }
+    .first-screen-authors {
+      display: flex;
+      justify-content: space-between;
+      .first-screen-author {
+        color: $textColor;
+        .first-screen-proffesion {
+          font-family: $alternateFont;
+          text-transform: uppercase;
+          line-height: 121%;
+          margin-bottom: 8px;
+        }
+        .first-screen-name {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 121%;
+        }
+      }
+    }
+  }
+}
+.second-section {
+  margin-bottom: 200px;
+  .second-section-img {
+  }
+}
+.third-section {
+  position: relative;
+  margin-bottom: 200px;
+  text-align: right;
+  .third-section-title {
+    font-size: 220px;
+    color: $alternateColor;
+    position: absolute;
+    top: -108px;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+  }
+  .third-section-img {
+  }
+}
+.fourth-section {
+  margin-bottom: 279px;
+}
+.fifth-section {
+  margin-bottom: 532px;
+  position: relative;
+  height: 2078px;
+  .fifth-section-top {
+    text-align: right;
+  }
+  .fifth-section-left {
+    position: absolute;
+    top: 549px;
+  }
+  .fifth-section-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 74px;
+  }
+}
+.sixth-section {
+  position: relative;
+  height: 892px;
+  margin-bottom: 634px;
+  .sixth-section-text {
+    text-align: center;
+    height: 858px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .sixth-section-title {
+      font-size: 260px;
+    }
+    .stroke {
+      -webkit-text-stroke: $alternateColor 0.8px;
+      color: transparent;
+    }
+  }
+  .sixth-section-img {
+    position: absolute;
+    bottom: 62px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    transform: rotate(6.85deg);
+  }
+}
+.seventh-section {
+  margin-bottom: 180px;
+  height: 595px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .seventh-section-title {
+    font-size: 154px;
+    z-index: 1;
+  }
+  .seven-section-wrapper {
+    display: flex;
+    position: absolute;
+    height: 595px;
+    .seventh-section-left {
+      position: absolute;
+      left: -466px;
+      top: 0;
+    }
+    .seventh-section-middle {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .seventh-section-right {
+      position: absolute;
+      right: -475px;
+      z-index: -1;
+      bottom: 0;
+    }
+  }
+}
