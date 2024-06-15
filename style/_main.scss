@@ -37,8 +37,6 @@
 }
 .second-section {
   margin-bottom: 200px;
-  .second-section-img {
-  }
 }
 .third-section {
   position: relative;
@@ -52,8 +50,6 @@
     z-index: -1;
     text-align: center;
     width: 100%;
-  }
-  .third-section-img {
   }
 }
 .fourth-section {
@@ -77,8 +73,10 @@
   }
 }
 .sixth-section {
+  background-image: url('../img/right-part.jpg');
+  background-position: right -20px;
+  background-repeat: no-repeat;
   position: relative;
-  height: 892px;
   margin-bottom: 634px;
   .sixth-section-text {
     text-align: center;
@@ -96,11 +94,14 @@
   }
   .sixth-section-img {
     position: absolute;
-    bottom: 62px;
-    text-align: center;
-    width: 100%;
     z-index: 1;
-    transform: rotate(6.85deg);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+      width: 100%;
+      transform: rotate(6.85deg);
+    }
   }
 }
 .seventh-section {
